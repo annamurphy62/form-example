@@ -7,8 +7,8 @@
     <title>Form Demo</title>
     <style>
       form {
-        background-color: rgb(211, 222, 231);
-       padding: 1rem;;
+      background-color: rgb(211, 222, 231);
+      padding: 1rem;;
       }
       * {font-family: Verdana, Geneva, Tahoma, sans-serif;}
       button {background-color: rgb(27, 136, 59);
@@ -18,17 +18,13 @@
   </head>
   <body>
     <fieldset>
-      
       <legend>Please feel free to send a message</legend>
-    
       <form name="contact" method="POST" data-netlify="true">
         <p>
           <label
             >Email <br />
-            <input type="text" name="name"
-          /></label>
+            <input type="text" name="name"/></label>
         </p>
-
         <p>
           <label
             >Message <br />
@@ -36,14 +32,10 @@
           ></label>
         </p>
     <fieldset>
-      
       <legend>Would you like a reply ?</legend>
-    
-        
           <label><input type="radio" name="reply" value="yes" checked="checked"/>Yes</label>
           <br>
           <label><input type="radio" name="reply" value="no" />No</label>
-  
     </fieldset>
     <p>
         <button type="submit">Send Message</button>
